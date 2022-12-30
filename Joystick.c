@@ -57,196 +57,126 @@ static const command step[] = {
 	{ A,          5 },
 	{ NOTHING,   50 },
 
-	// Save
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,  100 },
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,  120 },
+	{ NOTHING,   75 },
 	{ A,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
 
-	// Walk to the girl
-
-	// Walk left
-	{ LEFT,     135 },
-	{ NOTHING,   25 },
-
-	// Walk down
-	{ DOWN,      44 },
-	{ NOTHING,   25 },
-
-	// Talk to her
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,  200 },
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,  200 },
-
-	// Up 4 times when arrive at menu
-	{ UP,         5 },
-	{ NOTHING,   10 },
-	{ UP,         5 },
-	{ NOTHING,   10 },
-	{ UP,         5 },
-	{ NOTHING,   10 },
-	{ UP,         5 },
-	{ NOTHING,   10 },
-
-	// After the extra quest is unlocked, it's 5
-	{ UP,         5 },
-	{ NOTHING,   10 },
-
-	// After the extra quest is unlocked, it's 6
-	{ UP,         5 },
-	{ NOTHING,   10 },
-
-	// In the Post-game, it's 8
-	{ UP,         5 },
-	{ NOTHING,   10 },
-	{ UP,         5 },
-	{ NOTHING,   10 },
-
-	// Press A to take item
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   20 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
+
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,   20 },
-
-	// Enter Quest
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   20 },
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   20 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
 
-	// Wait a while
-	{ NOTHING,  200 },
-	{ NOTHING,  200 },
-
-	// Skip scene
-
-	// Press Plus
-	{ PLUS,       5 },
-	{ NOTHING,   30 },
-	// Press X
-	{ X,          5 },
-	{ NOTHING,   30 },
-	// Press up
-	{ UP,        5 },
-	{ NOTHING,  30 },
-	// Press A
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,   30 },
-
-	// Wait a while
-	{ NOTHING,  200 },
-	{ NOTHING,  130 },
-
-	// Fast forward a little
-	{ R,         50 },
-	{ NOTHING,   15 },
-
-	// Set up thunder & fire spells
-
-	// First spell
-
-	// L
-	{ L,          5 },
-	{ NOTHING,   15 },
-	// Down
-	{ DOWN,       5 },
-	{ NOTHING,   15 },
-	// A
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   15 },
-	// A
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   15 },
-	// A
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
+
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,   20 },
-
-	// Wait
-	{ NOTHING,   10 },
-
-	// Second spell
-
-	// L
-	{ L,          5 },
-	{ NOTHING,   15 },
-	// Down
-	{ DOWN,       5 },
-	{ NOTHING,   15 },
-	// A
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   15 },
-	// A
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   15 },
-	// A
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
+
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,   10 },
-
-	// Auto battle
-
-	// Press minus
-	{ MINUS,      5 },
-	{ NOTHING,   10 },
-
-	// Hold R for a while
-	{ R,        500 },
-	{ R,        500 },
-	{ R,        380 },
-
-	// If level 50-70, you might need more time in battle
-	// { R,        500 },
-	// { R,        500 },
-	// { R,        500 },
-
-	// Proceed past battle
-
-	// Press A
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   30 },
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   30 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
+
+	// A 3 times, followed by B 2 times
 	{ A,          5 },
-	{ NOTHING,   30 },
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   30 },
-
-	// Wait a while
-	{ NOTHING,  200 },
-	{ NOTHING,  200 },
-	{ NOTHING,  100 },
-
-	// Skip scene
-
-	// Press Plus
-	{ PLUS,       5 },
-	{ NOTHING,   15 },
-	// Press X
-	{ X,          5 },
-	{ NOTHING,   15 },
-	// Press up
-	{ UP,         5 },
-	{ NOTHING,   15 },
-	// Press A
+	{ NOTHING,   75 },
 	{ A,          5 },
-	{ NOTHING,   20 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
 
-	// Wait a while
-	{ NOTHING,  200 },
-	{ NOTHING,  200 },
-	{ NOTHING,  90 },
+	// A 3 times, followed by B 2 times
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
 
-	// Go back to save point
-	// up
-	{ UP,        26 },
-	{ NOTHING,   50 },
-	// left
-	{ LEFT,       3 },
-	{ NOTHING,   50 },
+	// A 3 times, followed by B 2 times
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
+	
+	// A 3 times, followed by B 2 times
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ A,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,   75 },
+	{ B,          5 },
+	{ NOTHING,  150 },
 
-	// Wait before looping
-	// { NOTHING,   50 },
 };
 
 // Main entry point.
