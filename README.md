@@ -1,6 +1,6 @@
-# World of Final Fantasy XP Auto-Grinder
+# Pokemon Scarlet / Violet Infinite Money Ace Tournament Grinder
 
-A fork of a fork of a fork, modified to grind XP in a specific location in World of Final Fantasy, to level my character past level 60, so I can max out a few things in the game.
+A fork of a fork of a fork of a fork, modified to grind the Ace Tournament in a specific location in Pokemon Scarlet / Violet. Assumes you have a strong Pokemon in position 1 that can one-shot everyone and survive for hours (Google Inifite money builds).
 
 See previous projects for some more detailed information / setup process.
 
@@ -15,6 +15,13 @@ git clone --recursive git@github.com:bertrandom/snowball-thrower.git
 will put LUFA in the right directory.
 
 Now you should be ready to rock. Open a terminal window in the `snowball-thrower` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing `Joystick.hex` onto your Teensy, which can be found page where you downloaded the Teensy Loader application.
+
+### Building
+
+1. Install avr-gcc 
+2. Install LUFA dependency
+3. Run `make`
+4. Run `./teensy_loader_cli --mcu=atmega32u4 -wv Joystick.hex`
 
 #### Thanks
 
